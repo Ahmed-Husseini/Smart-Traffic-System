@@ -1,0 +1,88 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
+| Date         : Mon Dec 09 09:28:29 2024
+| Host         : XPS-9500 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Main_control_sets_placed.rpt
+| Design       : Main
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    22 |
+| Unused register locations in slices containing registers |    68 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              23 |           20 |
+| No           | No                    | Yes                    |              11 |            4 |
+| No           | Yes                   | No                     |              72 |           19 |
+| Yes          | No                    | No                     |             132 |           55 |
+| Yes          | No                    | Yes                    |              38 |           14 |
+| Yes          | Yes                   | No                     |              72 |           28 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------+------------------------------------------------+------------------------------------------------+------------------+----------------+
+|             Clock Signal             |                  Enable Signal                 |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++--------------------------------------+------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  Ultrasonic_Sensor/Alarm_reg_i_2_n_0 |                                                |                                                |                1 |              1 |
+|  Clk_IBUF_BUFG                       | Temp_Sensor/Bit_Index0                         | Reset_IBUF                                     |                2 |              6 |
+|  Clk_IBUF_BUFG                       | Temp_Sensor/Data_Ready                         |                                                |                2 |              8 |
+|  Clk_IBUF_BUFG                       |                                                | Ultrasonic_Sensor/Trig_Counter_2[9]_i_1_n_0    |                3 |             10 |
+|  Clk_IBUF_BUFG                       |                                                | Ultrasonic_Sensor/Trig_Counter_3[9]_i_1_n_0    |                2 |             10 |
+|  Clk_IBUF_BUFG                       |                                                | Ultrasonic_Sensor/Trig_Counter_4[9]_i_1_n_0    |                3 |             10 |
+|  Clk_IBUF_BUFG                       |                                                | Ultrasonic_Sensor/clear                        |                3 |             10 |
+|  Clk_IBUF_BUFG                       | Echo_1_IBUF                                    | Ultrasonic_Sensor/Distance_Measured_13_i_1_n_0 |                3 |             10 |
+|  Clk_IBUF_BUFG                       | Echo_2_IBUF                                    | Ultrasonic_Sensor/Distance_Measured_23_i_1_n_0 |                3 |             10 |
+|  Clk_IBUF_BUFG                       | Echo_3_IBUF                                    | Ultrasonic_Sensor/Distance_Measured_33_i_1_n_0 |                4 |             10 |
+|  Clk_IBUF_BUFG                       | Echo_4_IBUF                                    | Ultrasonic_Sensor/Distance_Measured_43_i_1_n_0 |                3 |             10 |
+|  Clk_IBUF_BUFG                       |                                                | Reset_IBUF                                     |                4 |             11 |
+|  Clk_IBUF_BUFG                       | Ultrasonic_Sensor/Distance_Measured_33_i_1_n_0 |                                                |               11 |             15 |
+|  Clk_IBUF_BUFG                       | Ultrasonic_Sensor/Distance_Measured_13_i_1_n_0 |                                                |                8 |             15 |
+|  Clk_IBUF_BUFG                       | Ultrasonic_Sensor/Distance_Measured_23_i_1_n_0 |                                                |                8 |             15 |
+|  Clk_IBUF_BUFG                       | Ultrasonic_Sensor/Distance_Measured_43_i_1_n_0 |                                                |               10 |             15 |
+|  Clk_IBUF_BUFG                       |                                                |                                                |               19 |             22 |
+|  Clk_IBUF_BUFG                       |                                                | Segment_Control/clear                          |                8 |             32 |
+|  Clk_IBUF_BUFG                       | Temp_Sensor/Clk_Div[31]_i_1_n_0                | Reset_IBUF                                     |               12 |             32 |
+|  Clk_IBUF_BUFG                       | Temp_Sensor/Bit_Time0                          | Temp_Sensor/Bit_Time[31]_i_1_n_0               |               15 |             32 |
+|  Clk_IBUF_BUFG                       | LEDs_Control/Counter_10_seconds0               |                                                |                8 |             32 |
+|  Clk_IBUF_BUFG                       | LEDs_Control/Counter_3_seconds0                |                                                |                8 |             32 |
++--------------------------------------+------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 6      |                     1 |
+| 8      |                     1 |
+| 10     |                     8 |
+| 11     |                     1 |
+| 15     |                     4 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

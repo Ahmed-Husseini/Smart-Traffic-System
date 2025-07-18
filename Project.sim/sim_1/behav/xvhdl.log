@@ -1,0 +1,32 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sources_1/new/Temp_Sensor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Temp_Sensor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sources_1/new/Segment_Control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Segment_Control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sources_1/new/LEDs_Control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LEDs_Control
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sources_1/new/Ultrasonic_Sensor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ultrasonic_Sensor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Main_tb
+ERROR: [VRFC 10-616] entity main_testbench is not yet compiled [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:9]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:14]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:15]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:16]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:17]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:18]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:19]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:20]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:21]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:22]
+ERROR: [VRFC 10-91] std_logic_vector is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:23]
+ERROR: [VRFC 10-91] std_logic_vector is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:24]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:29]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:30]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:31]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:32]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:33]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:34]
+ERROR: [VRFC 10-91] std_logic is not declared [C:/Users/Eng.Ahmed/Desktop/Project/Project.srcs/sim_1/new/Main_Testbench.vhd:35]
+INFO: [#UNDEF] Sorry, too many errors..
