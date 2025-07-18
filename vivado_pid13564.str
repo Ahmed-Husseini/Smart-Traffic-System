@@ -1,0 +1,449 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+Process ID: 13564
+
+Current time: 	12/6/24 12:49:17 PM EET
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xillinx_Vivado/Vivado/2016.4/tps/win64/jre
+
+User name: 	Eng.Ahmed
+User home directory: C:/Users/Eng.Ahmed
+User working directory: C:/Users/Eng.Ahmed/Desktop/Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/Xillinx_Vivado/Vivado
+RDI data directory: D:/Xillinx_Vivado/Vivado/2016.4/data
+RDI bin directory: D:/Xillinx_Vivado/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Eng.Ahmed/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Eng.Ahmed/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	143 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 444 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+53113kb) [00:00:04]
+// [Engine Memory]: 391 MB (+258521kb) [00:00:04]
+// Opening Vivado Project: C:\Users\Eng.Ahmed\Desktop\Project\Project.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr 
+// [Engine Memory]: 458 MB (+49286kb) [00:00:08]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 463 MB. GUI used memory: 28 MB. Current time: 12/6/24 12:49:19 PM EET
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 588 MB (+112580kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx_Vivado/Vivado/2016.4/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 856.496 ; gain = 218.477 
+// Project name: Project; location: C:/Users/Eng.Ahmed/Desktop/Project; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 56 MB (+105kb) [00:03:22]
+// [GUI Memory]: 59 MB (+10kb) [00:07:25]
+// PAPropertyPanels.initPanels (Temp_Sensor.vhd) elapsed time: 0.2s
+// Elapsed time: 565 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Temp_Sensor - Behavioral (Temp_Sensor.vhd)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Temp_Sensor - Behavioral (Temp_Sensor.vhd)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 62 MB (+621kb) [00:09:42]
+selectCodeEditor("Temp_Sensor.vhd", 310, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 95, 126); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 110, 165); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 119, 162); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("Temp_Sensor.vhd", 399, 258); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 50, 79); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 65 MB (+178kb) [00:10:45]
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 72 MB (+3107kb) [00:10:50]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Temp_Sensor.vhd", 154, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 79, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 113, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 113, 302); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 77 MB (+2225kb) [00:11:15]
+// Elapsed time: 30 seconds
+selectCodeEditor("Temp_Sensor.vhd", 94, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 100, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+selectCodeEditor("Temp_Sensor.vhd", 181, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 125, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 65, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Temp_Sensor.vhd", 115, 407); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Temp_Sensor.vhd", 65, 406); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// Elapsed time: 16 seconds
+selectCodeEditor("Temp_Sensor.vhd", 234, 346); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 257, 410); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 218, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 179, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 177, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 381, 378); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 60 seconds
+selectCodeEditor("Temp_Sensor.vhd", 184, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("Temp_Sensor.vhd", 291, 394); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Temp_Sensor.vhd", 61, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 168, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 212, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 106, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 283, 464); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 82 MB (+685kb) [00:14:58]
+// Elapsed time: 95 seconds
+selectCodeEditor("Temp_Sensor.vhd", 362, 260); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 39 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Temp_Sensor.vhd", 99, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 88 seconds
+selectCodeEditor("Temp_Sensor.vhd", 137, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("Temp_Sensor.vhd", 223, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("Temp_Sensor.vhd", 162, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 201, 406); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 145, 418); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 222, 415); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Temp_Sensor.vhd", 146, 395); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 350, 420); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 144, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 200, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 282, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 342, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 145, 372); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Temp_Sensor.vhd", 358, 430); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("Temp_Sensor.vhd", 144, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 182, 422); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 157, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 145, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 145, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 221, 476); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 221, 476, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 221, 476); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 88 MB (+1547kb) [00:21:33]
+selectCodeEditor("Temp_Sensor.vhd", 251, 471); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("Temp_Sensor.vhd", 140, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Temp_Sensor.vhd", 176, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("Temp_Sensor.vhd", 161, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 172, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Temp_Sensor.vhd", 271, 380); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 410, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 176, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Temp_Sensor.vhd", 444, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 300, 414); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 457, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 147, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Temp_Sensor.vhd", 149, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Temp_Sensor.vhd", 167, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 175, 453); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 116, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 113, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 117, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 299, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 57, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Temp_Sensor.vhd", 56, 369); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 57, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 296, 375); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 190, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 189, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Temp_Sensor.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 422, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 131, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 213, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Temp_Sensor.vhd", 64, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 187, 425); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 84, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 167, 229, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("Temp_Sensor.vhd", 77, 242); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Temp_Sensor.vhd", 114, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Temp_Sensor.vhd", 266, 258); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 211, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Temp_Sensor.vhd", 318, 274); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Temp_Sensor.vhd", 193, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Temp_Sensor.vhd", 433, 340); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 93 MB (+1100kb) [00:27:01]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("Main.vhd", 257, 146); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 234, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Main.vhd", 202, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 301, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 71, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main.vhd", 283, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 174, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Main.vhd", 272, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 67, 150); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 233, 144); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Main.vhd", 544, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Main.vhd", 264, 209); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Temp_Sensor.vhd", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Temp_Sensor.vhd", 1, false, true); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame) - Double Click
+selectCodeEditor("Temp_Sensor.vhd", 268, 135); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.vhd", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Main.vhd", 162, 148); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), Temp_Sensor - Temp_Sensor - Behavioral (Temp_Sensor.vhd)]", 6, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), Temp_Sensor - Temp_Sensor - Behavioral (Temp_Sensor.vhd)]", 6, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), Clock_Div - Clock_Divider - Behavioral (Clock_Divider.vhd)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), Clock_Div - Clock_Divider - Behavioral (Clock_Divider.vhd)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("Clock_Divider.vhd", 276, 130); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 23, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 177, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Clock_Divider.vhd", 171, 319); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 18 seconds
+selectCodeEditor("Clock_Divider.vhd", 275, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 290, 210); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 136, 202); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Clock_Divider.vhd", 380, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 296, 305); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 318, 340); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 86, 136); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 43 MB. Current time: 12/6/24 1:19:22 PM EET
+// Elapsed time: 20 seconds
+selectCodeEditor("Clock_Divider.vhd", 30, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Clock_Divider.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), LEDs_Control - LEDs_Control - Behavioral (LEDs_Control.vhd)]", 5, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main - Behavioral (Main.vhd), LEDs_Control - LEDs_Control - Behavioral (LEDs_Control.vhd)]", 5, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("LEDs_Control.vhd", 319, 217); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 379, 228); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "LEDs_Control.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 54, 269); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 135, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Clock_Divider.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 279, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+// [Engine Memory]: 623 MB (+6431kb) [00:31:01]
+selectCodeEditor("Clock_Divider.vhd", 26, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 29, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "Clock_Divider.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("Clock_Divider.vhd", 201, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LEDs_Control.vhd", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey((HResource) null, "LEDs_Control.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 632 MB. GUI used memory: 43 MB. Current time: 12/6/24 1:20:27 PM EET
+selectCodeEditor("LEDs_Control.vhd", 73, 370); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 132, 79); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 200, 356); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 30, 409); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 18, 402); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 251, 306); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 175, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 144, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "LEDs_Control.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("LEDs_Control.vhd", 82, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("LEDs_Control.vhd", 112, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("LEDs_Control.vhd", 162, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Clock_Divider.vhd", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LEDs_Control.vhd", 4); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 43 seconds
+selectCodeEditor("LEDs_Control.vhd", 276, 216); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 36 seconds
+selectCodeEditor("LEDs_Control.vhd", 70, 212); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("LEDs_Control.vhd", 107, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 118 seconds
+selectCodeEditor("LEDs_Control.vhd", 243, 382); // bF:I (JPanel:JComponent, cd:JFrame)

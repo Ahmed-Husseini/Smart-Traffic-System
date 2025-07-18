@@ -1,0 +1,74 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+Process ID: 9416
+
+Current time: 	11/29/24 10:37:43 AM EET
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xillinx_Vivado/Vivado/2016.4/tps/win64/jre
+
+User name: 	Eng.Ahmed
+User home directory: C:/Users/Eng.Ahmed
+User working directory: C:/Users/Eng.Ahmed/Desktop/Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/Xillinx_Vivado/Vivado
+RDI data directory: D:/Xillinx_Vivado/Vivado/2016.4/data
+RDI bin directory: D:/Xillinx_Vivado/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Eng.Ahmed/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Eng.Ahmed/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	224 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 470 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 56 MB (+56103kb) [00:00:04]
+// [Engine Memory]: 391 MB (+259033kb) [00:00:04]
+// Opening Vivado Project: C:\Users\Eng.Ahmed\Desktop\Project\Project.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 482 MB (+73914kb) [00:00:07]
+// Tcl Message: open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 65 MB (+6469kb) [00:00:08]
+// [Engine Memory]: 508 MB (+2815kb) [00:00:08]
+// [Engine Memory]: 572 MB (+39524kb) [00:00:09]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx_Vivado/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 574 MB. GUI used memory: 31 MB. Current time: 11/29/24 10:37:47 AM EET
+// Project name: Project; location: C:/Users/Eng.Ahmed/Desktop/Project; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 871.969 ; gain = 179.711 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 582 MB. GUI used memory: 29 MB. Current time: 11/29/24 11:29:08 AM EET

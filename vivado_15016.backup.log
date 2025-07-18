@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Dec 08 02:57:41 2024
+# Process ID: 15016
+# Current directory: C:/Users/Eng.Ahmed/Desktop/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14788 C:\Users\Eng.Ahmed\Desktop\Project\Project.xpr
+# Log file: C:/Users/Eng.Ahmed/Desktop/Project/vivado.log
+# Journal file: C:/Users/Eng.Ahmed/Desktop/Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx_Vivado/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 861.477 ; gain = 175.059
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Dec 08 03:04:58 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/synth_1/runme.log
+[Sun Dec 08 03:04:58 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Dec 08 03:14:05 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/synth_1/runme.log
+[Sun Dec 08 03:14:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Dec 08 03:16:13 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/synth_1/runme.log
+[Sun Dec 08 03:16:13 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/impl_1/runme.log

@@ -1,0 +1,94 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+Process ID: 15568
+
+Current time: 	12/1/24 12:52:41 PM EET
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x960
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xillinx_Vivado/Vivado/2016.4/tps/win64/jre
+
+User name: 	Eng.Ahmed
+User home directory: C:/Users/Eng.Ahmed
+User working directory: C:/Users/Eng.Ahmed/Desktop/Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/Xillinx_Vivado/Vivado
+RDI data directory: D:/Xillinx_Vivado/Vivado/2016.4/data
+RDI bin directory: D:/Xillinx_Vivado/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Eng.Ahmed/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Eng.Ahmed/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	214 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 448 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 55 MB (+55547kb) [00:00:04]
+// [Engine Memory]: 385 MB (+252226kb) [00:00:04]
+// Opening Vivado Project: C:\Users\Eng.Ahmed\Desktop\Project\Project.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr 
+// [Engine Memory]: 451 MB (+49150kb) [00:00:08]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 472 MB. GUI used memory: 28 MB. Current time: 12/1/24 12:52:43 PM EET
+// Tcl Message: open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 520 MB (+48279kb) [00:00:12]
+// [Engine Memory]: 577 MB (+32708kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx_Vivado/Vivado/2016.4/data/ip'. 
+// Project name: Project; location: C:/Users/Eng.Ahmed/Desktop/Project; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 875.891 ; gain = 197.816 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Divider - Behavioral (Clock_Divider.vhd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Clock_Divider - Behavioral (Clock_Divider.vhd)]", 4, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("Clock_Divider.vhd", 110, 116); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 59 MB (+1209kb) [00:02:26]
+// [GUI Memory]: 63 MB (+393kb) [00:02:41]
+// Elapsed time: 329 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Ultrasonic_Sensor.vhd]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Ultrasonic_Sensor.vhd]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 67 MB (+1342kb) [00:06:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 611 MB. GUI used memory: 35 MB. Current time: 12/1/24 12:58:43 PM EET
+// [Engine Memory]: 611 MB (+5215kb) [00:06:14]
+// Elapsed time: 48 seconds
+selectCodeEditor("Ultrasonic_Sensor.vhd", 386, 132); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 127 seconds
+selectCodeEditor("Ultrasonic_Sensor.vhd", 149, 247); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 71 MB (+80kb) [00:09:33]
+// Elapsed time: 31 seconds
+selectCodeEditor("Ultrasonic_Sensor.vhd", 238, 263); // bF:I (JPanel:JComponent, cd:JFrame)

@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Dec 09 08:55:37 2024
+# Process ID: 15152
+# Current directory: C:/Users/Eng.Ahmed/Desktop/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12484 C:\Users\Eng.Ahmed\Desktop\Project\Project.xpr
+# Log file: C:/Users/Eng.Ahmed/Desktop/Project/vivado.log
+# Journal file: C:/Users/Eng.Ahmed/Desktop/Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xillinx_Vivado/Vivado/2016.4/data/ip'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec 09 09:19:19 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/synth_1/runme.log
+[Mon Dec 09 09:19:19 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 355 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Eng.Ahmed/Desktop/Project/.Xil/Vivado-15152-XPS-9500/dcp/Main.xdc]
+Finished Parsing XDC File [C:/Users/Eng.Ahmed/Desktop/Project/.Xil/Vivado-15152-XPS-9500/dcp/Main.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.220 . Memory (MB): peak = 1092.395 ; gain = 0.520
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.221 . Memory (MB): peak = 1092.395 ; gain = 0.520
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1187.230 ; gain = 299.457
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+add_files -fileset constrs_1 -norecurse C:/Users/Eng.Ahmed/Desktop/Project/Basys-3-Master.xdc
+remove_files  -fileset constrs_1 C:/Users/Eng.Ahmed/Desktop/Project/Basys-3-Master.xdc
+remove_files  -fileset constrs_1 {{D:/Documents/Academic/5th Semester/CMS Files/ELCT501/Notes/Basys 3 board and constraints/Basys-3-Master.xdc}}
+add_files -fileset constrs_1 -norecurse C:/Users/Eng.Ahmed/Desktop/Project/Basys-3-Master.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Dec 09 09:27:13 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/synth_1/runme.log
+[Mon Dec 09 09:27:13 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Eng.Ahmed/Desktop/Project/Project.runs/impl_1/runme.log
+save_project_as Final C:/Users/Eng.Ahmed/Desktop/Final -force
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 09 09:36:09 2024...

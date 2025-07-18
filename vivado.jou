@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Dec 09 09:36:17 2024
+# Process ID: 10648
+# Current directory: C:/Users/Eng.Ahmed/Desktop/Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12236 C:\Users\Eng.Ahmed\Desktop\Project\Project.xpr
+# Log file: C:/Users/Eng.Ahmed/Desktop/Project/vivado.log
+# Journal file: C:/Users/Eng.Ahmed/Desktop/Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Eng.Ahmed/Desktop/Project/Project.xpr
